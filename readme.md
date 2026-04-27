@@ -12,14 +12,7 @@ The system goes beyond a standard Q&A chatbot by implementing an orchestration l
 * **Pure-Python VectorStore:** A custom, dependency-light Vector Database computing Cosine Similarity directly in RAM. Ensures 100% portability without complex C++ library installations (like FAISS/Chroma).
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.9+
+* **Language:** Python 3.11
 * **LLM Provider:** Google Generative AI (Gemini 2.5 Flash & Text Embedding 004)
 * **Backend:** FastAPI, Uvicorn
 * **Configuration:** Pydantic, python-dotenv
-
-## ⚙️ Setup & Installation
-
-**1. Clone the repository**
-```bash
-git clone <your-repo-link>
-cd <your-repo-folder>
